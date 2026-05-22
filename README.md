@@ -1,28 +1,20 @@
-<<<<<<< HEAD
-# RAG-Fundamentals
-A hands-on implementation of RAG (Retrieval Augmented Generation) using Weaviate vector database, built while learning from scratch.
+# FashionHub Chatbot 🛍️
 
-## What's in this repo
+A RAG-powered fashion assistant chatbot built with Weaviate and Groq.
 
-- **Weaviate Vector DB pipeline** — chunking text, indexing into Weaviate, and performing semantic search
+## Features
+- Answers FAQ questions about shipping, returns etc.
+- Suggests outfit combinations from product catalog
+- Hallucination prevention — only suggests real products
 
 ## Tech Stack
 - Python
-- Weaviate
-- Sentence Transformers (all-MiniLM-L6-v2)
+- Weaviate (vector database)
+- Groq API (Llama 3.1 8B)
+- Sentence Transformers
 
-## Concepts Covered
-- Text chunking with overlap (sliding window)
-- Converting text to vector embeddings
-- Indexing documents into a vector database
-- Semantic search using cosine similarity
-- HNSW indexing
-
-## How to Run
-```bash
-pip install weaviate-client sentence-transformers
-python weaviate_rag.py
-```
-=======
-# FashionHub-Chatbot
->>>>>>> 5398f178c1bb466aa9589dc29db577f5f9700657
+## Setup
+1. Get free API keys from console.groq.com and huggingface.co
+2. Add keys to the code
+3. pip install weaviate-client groq
+4. python fashionhub.py
