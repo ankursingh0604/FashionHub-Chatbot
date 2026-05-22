@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RAG-Fundamentals
 A hands-on implementation of RAG (Retrieval Augmented Generation) using Weaviate vector database, built while learning from scratch.
 
@@ -22,3 +23,6 @@ A hands-on implementation of RAG (Retrieval Augmented Generation) using Weaviate
 pip install weaviate-client sentence-transformers
 python weaviate_rag.py
 ```
+=======
+# FashionHub-Chatbot
+>>>>>>> 5398f178c1bb466aa9589dc29db577f5f9700657
