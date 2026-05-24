@@ -9,15 +9,16 @@ A RAG-powered fashion assistant chatbot built with Weaviate and Groq.
 
 ## Tech Stack
 - Python
-- Weaviate (vector database)
+- FAISS (vector search)
 - Groq API (Llama 3.1 8B)
 - Sentence Transformers
+- Streamlit
 
 ## Setup
-1. Get free API keys from console.groq.com and huggingface.co
-2. Add keys to the code
-3. pip install weaviate-client groq
-4. python fashionhub.py
+1. Get free API key from console.groq.com
+2. Add key to Streamlit secrets
+3. pip install faiss-cpu sentence-transformers groq streamlit
+4. streamlit run app.py
 
 ## Live Demo
 🚀 [Try it here](https://fashionapp-chatbot-8jxhhcbfatf56u7wqhfktl.streamlit.app/)
