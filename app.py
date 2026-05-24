@@ -13,8 +13,9 @@ st.set_page_config(
 
 # API Keys
 
-GROQ_API_KEY = "# Get free key from console.groq.com" 
- 
+import os
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+
 # Fashion Data
 
 fashion_hub_data = [
