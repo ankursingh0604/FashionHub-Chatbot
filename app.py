@@ -13,8 +13,8 @@ st.set_page_config(
 
 # API Keys
 
-GROQ_API_KEY = "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"  # Get free key from console.groq.com
-
+GROQ_API_KEY = "# Get free key from console.groq.com" 
+ 
 # Fashion Data
 
 fashion_hub_data = [
