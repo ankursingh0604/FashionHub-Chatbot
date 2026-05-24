@@ -2,3 +2,4 @@ streamlit
 chromadb==0.4.24
 sentence-transformers
 groq
+numpy==1.26.4
