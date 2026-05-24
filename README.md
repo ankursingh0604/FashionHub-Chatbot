@@ -1,6 +1,6 @@
 # FashionHub Chatbot 🛍️
 
-A RAG-powered fashion assistant chatbot built with Weaviate and Groq.
+A RAG-powered fashion assistant chatbot built with FAISS, Groq and Streamlit.
 
 ## Features
 - Answers FAQ questions about shipping, returns etc.
