@@ -18,3 +18,6 @@ A RAG-powered fashion assistant chatbot built with Weaviate and Groq.
 2. Add keys to the code
 3. pip install weaviate-client groq
 4. python fashionhub.py
+
+## Live Demo
+🚀 [Try it here](https://fashionapp-chatbot-8jxhhcbfatf56u7wqhfktl.streamlit.app/)
